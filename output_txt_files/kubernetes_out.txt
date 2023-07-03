@@ -1,5 +1,13 @@
-NAME                        READY   STATUS    RESTARTS   AGE
-rbtmlops-79d7bfb796-6hktr   1/1     Running   0          66s
-Forwarding from 0.0.0.0:8000 -> 80
+NAME       READY   STATUS    RESTARTS   AGE
+rbtmlops   1/1     Running   0          29s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
 
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}

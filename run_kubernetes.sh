@@ -9,8 +9,7 @@ dockerpath="rbtadikonda/rbtmlops"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl create deploy rbtmlops --image=rbtadikonda/rbtmlops
-
+kubectl run --image=$dockerpath rbtmlops --port=80
 
 # Step 3:
 # List kubernetes pods
@@ -18,5 +17,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward rbtmlops-79d7bfb796-6hktr  --address 0.0.0.0 8000:80
+kubectl port-forward rbtmlops 8000:80
 
