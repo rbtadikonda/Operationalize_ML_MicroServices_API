@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/Operationalize_ML_Microservices_API.svg?style=svg)](https://circleci.com/gh/circleci/Operationalize_ML_Microservices_API)
+[![CircleCI](https://circleci.com/gh/rbtadikonda/Operationalize_ML_Microservices_API.svg?style=svg)](https://circleci.com/gh/rbtadikonda/Operationalize_ML_Microservices_API)
 
 ## Project Overview
 
