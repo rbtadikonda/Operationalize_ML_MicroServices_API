@@ -20,4 +20,3 @@ kubectl get pods
 # Forward the container port to a host
 kubectl port-forward rbtmlops-79d7bfb796-6hktr  --address 0.0.0.0 8000:80
 
-

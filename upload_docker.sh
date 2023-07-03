@@ -17,3 +17,4 @@ docker tag rbtmlops $dockerpath
 # Step 3:
 # Push image to a docker repository
 docker image push $dockerpath
+
